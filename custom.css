@@ -1,20 +1,34 @@
-/* Add padding to the sidebar */
+/* Sidebar width */
 .sidebar {
-    padding-left: 18px;
-    padding-right: 18px;
+    width: 300px;
 }
 
-/* Indent nested menu items a bit more */
+/* Move the main content over */
+.content {
+    left: 300px;
+}
+
+/* Padding around the navigation */
+.sidebar-nav {
+    padding: 0 20px;
+}
+
+/* Padding around the search box */
+.search {
+    padding: 16px 20px;
+}
+
+/* Remove default list padding */
+.sidebar-nav ul {
+    padding-left: 0;
+}
+
+/* Indent child items */
 .sidebar-nav ul ul {
-    padding-left: 16px;
+    padding-left: 18px;
 }
 
-/* Give each menu item a little breathing room */
+/* Space between items */
 .sidebar-nav li {
-    margin: 4px 0;
-}
-
-/* Optional: slightly larger section labels */
-.sidebar-nav > ul > li {
-    margin-top: 12px;
+    margin: 6px 0;
 }
