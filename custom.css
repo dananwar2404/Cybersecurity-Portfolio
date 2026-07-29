@@ -390,21 +390,17 @@ body.boot-active {
     margin: 0 auto 20px;
     padding: 0;
 
-    max-width: 100%;
-    overflow: visible;
-
     color: #f4c542;
     background: transparent;
-    border: 0;
+    border: none;
 
-    font-family: Consolas, Monaco, "Courier New", monospace;
-    font-size: 10px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 12px;
     line-height: 1.05;
     text-align: center;
     white-space: pre;
 
-    text-shadow:
-        0 0 2px rgba(244, 197, 66, 0.28);
+    text-shadow: none;
 }
 
 .boot-title{
