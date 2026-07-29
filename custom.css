@@ -645,3 +645,27 @@ body.boot-active {
 .markdown-section td:last-child{
     color:var(--text);
 }
+/* Fix Docsify table row colors */
+
+.markdown-section table tr {
+    background: var(--panel) !important;
+}
+
+.markdown-section table tr:nth-child(2n) {
+    background: rgba(111, 66, 193, 0.12) !important;
+}
+
+.markdown-section table th {
+    background: rgba(111, 66, 193, 0.28) !important;
+    color: var(--soft-gold) !important;
+}
+
+.markdown-section table td {
+    color: var(--text) !important;
+    background: transparent !important;
+}
+
+.markdown-section table td:first-child {
+    color: var(--soft-gold) !important;
+    font-weight: 700;
+}
