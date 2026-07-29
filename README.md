@@ -12,35 +12,17 @@ This portfolio showcases hands-on cybersecurity projects completed through acade
 
 Every project includes technical documentation, reports, screenshots, and demonstrations to highlight both the investigative process and the final results.
 
-# ⭐ Featured Projects
+Featured Projects
 
-## 🛡️ PhishShield AI
+🤖 PhishShield AI
 
-AI-powered phishing detection platform utilizing Google Gemini, TensorFlow.js, React, and TypeScript.
+🚨 Incident Response Investigations
 
----
+🦠 ASYNCRAT Malware Analysis
 
-## 🦠 ASYNCRAT Malware Investigation
+🎯 Equifax MITRE ATT&CK Analysis
 
-Dynamic malware analysis using the ANY.RUN interactive sandbox.
-
----
-
-## 🚨 Incident Response Collection
-
-Enterprise incident response investigations involving DNS attacks, WordPress compromise, network analysis, and database security.
-
----
-
-## 🤖 AI Security
-
-Attacking and Defending Large Language Models.
-
----
-
-## 📊 Network Anomaly Detection
-
-Machine learning model for identifying anomalous network behavior.
+🔍 Enterprise Vulnerability Assessment
 
 # 💻 Technical Skills
 
