@@ -183,7 +183,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function enterPortfolio() {
-        if (!bootScreen) return;
+    if (!bootScreen) return;
+
+    const hole = document.getElementById('black-hole-transition');
+    const terminal = document.querySelector('.boot-terminal');
+
+    if (hole) hole.classList.add('expand');
+    if (terminal) terminal.classList.add('sucked-in');
+
+    setTimeout(function () {
 
         bootScreen.style.opacity = '0';
         bootScreen.style.pointerEvents = 'none';
@@ -192,7 +200,9 @@ document.addEventListener('DOMContentLoaded', function () {
         setTimeout(function () {
             bootScreen.style.display = 'none';
         }, 500);
-    }
+
+    }, 900);
+}
 
     if (enterButton) {
         enterButton.addEventListener('click', enterPortfolio);
