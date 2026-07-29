@@ -84,7 +84,9 @@ Unlike traditional phishing scanners, PhishShield AI combines large language mod
 
 <p align="center">
   <video width="100%" controls preload="metadata">
-    <source src="./Demo%20for%20Phishield%20AI%20(2).mp4" type="video/mp4">
+    <source
+      src="/Cybersecurity-Portfolio/AI%20Cybersecurity%20Projects/PhishShield%20AI/Demo%20for%20Phishield%20AI%20%282%29.mp4"
+      type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </p>
