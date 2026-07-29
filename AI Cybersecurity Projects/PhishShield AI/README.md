@@ -80,11 +80,14 @@ Unlike traditional phishing scanners, PhishShield AI combines large language mod
 
 # Demonstration
 
-🎥 **Project Demonstration**
+## 🎥 Project Demonstration
 
-A complete walkthrough of PhishShield AI can be viewed here:
-
-**➡️ Demo.mp4**
+<p align="center">
+  <video width="100%" controls preload="metadata">
+    <source src="./Demo%20for%20Phishield%20AI%20(2).mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 The demonstration showcases:
 
