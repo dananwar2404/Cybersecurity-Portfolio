@@ -65,8 +65,3 @@ Featured Projects
 - MITRE ATT&CK
 - NIST RMF
 - OWASP Top 10
-
-# 📫 Contact
-
-- LinkedIn - www.linkedin.com/in/mohammed-daniyal-anwar
-- Email - anwarm@ferris.edu
