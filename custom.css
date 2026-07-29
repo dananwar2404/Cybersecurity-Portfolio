@@ -627,3 +627,13 @@ body.boot-active {
         border-color 0.3s ease,
         box-shadow 0.3s ease;
 }
+/* ======================================
+   TECHNOLOGY STACK TABLE
+====================================== */
+
+.markdown-section table {
+    width: auto;
+    min-width: 700px;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
