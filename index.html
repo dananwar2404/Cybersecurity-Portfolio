@@ -46,9 +46,11 @@
 
             content.classList.remove('page-enter');
 
-            void content.offsetWidth;
-
-            content.classList.add('page-enter');
+            requestAnimationFrame(function () {
+                requestAnimationFrame(function () {
+                    content.classList.add('page-enter');
+                });
+            });
         });
     }
 ],
