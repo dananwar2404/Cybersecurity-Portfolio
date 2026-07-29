@@ -198,6 +198,6 @@ The mapped attack chain shows how Initial Access, Persistence, Credential Access
 
 ## Full Report
 
-[View the complete Equifax MITRE ATT&CK Mapping Report](Anwar_Fanco%20MitreAttackwk10.pdf ':ignore')
+[Open Report](https://dananwar2404.github.io/Cybersecurity-Portfolio/Threat%20Intelligence/Anwar_Fanco%20MitreAttackwk10.pdf)
 
 ---
