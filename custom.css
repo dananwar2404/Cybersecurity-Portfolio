@@ -407,6 +407,29 @@ body.boot-active {
         0 0 24px rgba(117, 63, 205, 0.35);
 }
 
+.boot-title{
+    margin-top:12px;
+    margin-bottom:30px;
+
+    text-align:center;
+
+    color:#f4c542;
+
+    font-family:Consolas, Monaco, "Courier New", monospace;
+
+    font-size:18px;
+
+    letter-spacing:8px;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    text-shadow:
+        0 0 12px rgba(244,197,66,.7),
+        0 0 28px rgba(117,63,205,.3);
+}
+
 .boot-output {
     margin: 0 auto 28px;
     max-width: 680px;
