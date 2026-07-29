@@ -742,3 +742,6 @@ body.boot-active {
     }
 
 }
+.boot-output {
+    opacity: 1;
+}
