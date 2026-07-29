@@ -191,17 +191,21 @@ document.addEventListener('DOMContentLoaded', function () {
     if (hole) hole.classList.add('expand');
     if (terminal) terminal.classList.add('sucked-in');
 
-    setTimeout(function () {
+ setTimeout(function () {
+    bootScreen.style.display = 'none';
+    document.body.classList.remove('boot-active');
 
-        bootScreen.style.opacity = '0';
-        bootScreen.style.pointerEvents = 'none';
-        document.body.classList.remove('boot-active');
+    if (hole) {
+        hole.classList.remove('expand');
+        hole.classList.add('collapse');
+    }
+}, 900);
 
-        setTimeout(function () {
-            bootScreen.style.display = 'none';
-        }, 500);
-
-    }, 900);
+setTimeout(function () {
+    if (hole) {
+        hole.style.display = 'none';
+    }
+}, 1650);
 }
 
     if (enterButton) {
