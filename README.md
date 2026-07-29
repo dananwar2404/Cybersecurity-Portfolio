@@ -8,6 +8,19 @@ Welcome to my cybersecurity portfolio.
 
 I am a cybersecurity student with a focus on AI-assisted security, incident response, malware analysis, threat intelligence, digital forensics, and vulnerability management. This portfolio demonstrates practical security projects developed through independent research, software development, and hands-on lab environments. Each project documents the methodology, technical analysis, findings, and remediation strategies used to investigate and solve real-world security scenarios.
 
+# Portfolio Overview
+
+| Domain | Projects |
+|---------|---------|
+| 🤖 AI Security | Machine Learning, LLM Security, AI Threat Detection |
+| 🚨 Incident Response | Investigations, DFIR, Case Studies |
+| 🔬 Malware Analysis | Static & Dynamic Analysis |
+| 🛡️ Blue Team | Hardening, Detection, Monitoring |
+| ⚔️ Red Team | Offensive Operations |
+| 🌐 Threat Intelligence | MITRE ATT&CK, Adversary Analysis |
+| 💾 Digital Forensics | Artifact Analysis & Evidence Collection |
+| 📈 Data Mining | SQL, Analytics, Machine Learning |
+
 ## Programming
 - Python
 - SQL
