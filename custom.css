@@ -763,3 +763,80 @@ body.boot-active {
 .boot-output {
     opacity: 1;
 }
+/* ---------- TERMINAL CODE VIEWER ---------- */
+
+.terminal-viewer{
+    margin:30px auto;
+    max-width:1000px;
+
+    background:#09090c;
+
+    border:1px solid rgba(212,175,55,.30);
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 0 25px rgba(111,66,193,.18);
+}
+
+.terminal-header{
+
+    height:42px;
+
+    display:flex;
+
+    align-items:center;
+
+    padding:0 15px;
+
+    background:#15131b;
+
+    border-bottom:1px solid rgba(212,175,55,.15);
+}
+
+.terminal-dot{
+
+    width:11px;
+    height:11px;
+
+    margin-right:8px;
+
+    border-radius:50%;
+
+    background:#D4AF37;
+}
+
+.terminal-title{
+
+    margin-left:10px;
+
+    color:#b8b8b8;
+
+    font-family:Consolas,monospace;
+
+    font-size:13px;
+}
+
+.terminal-viewer pre{
+
+    margin:0 !important;
+
+    max-height:650px;
+
+    overflow:auto;
+
+    background:#09090c !important;
+
+    padding:20px !important;
+}
+
+.terminal-viewer code{
+
+    font-size:14px;
+
+    line-height:1.6;
+
+    font-family:Consolas,monospace;
+}
