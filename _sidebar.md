@@ -9,7 +9,7 @@
   - [🎯 Equifax Threat Intelligence](Threat%20Intelligence/)
 ----
 
-## 🛡️ Blue Team
+**🛡️ Blue Team**
 
 * [Network Defense](/Blue%20Team/Network%20Defense/README.md)
 * [Secure Communications](/Blue%20Team/Secure%20Communications/README.md)
@@ -18,7 +18,8 @@
 
 ---
 
-## ⚔️ Red Team
+
+**⚔️ Red Team**
 
 * [Offensive Operations](/Red%20Teaming/Offensive%20operations/README.md)
 * [Social Engineering](/Red%20Teaming/Social%20Engineering/README.md)
