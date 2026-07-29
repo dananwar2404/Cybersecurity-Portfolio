@@ -40,3 +40,19 @@
     margin-bottom: 8px;
     font-size: 16px;
 }
+
+/* More breathing room around section headers */
+.sidebar-nav > ul > li {
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+/* Slightly indent child items */
+.sidebar-nav ul ul {
+    padding-left: 18px;
+}
+
+/* Make links a little easier to read */
+.sidebar-nav a {
+    padding: 4px 0;
+    display: inline-block;
