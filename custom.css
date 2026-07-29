@@ -387,7 +387,7 @@ body.boot-active {
 }
 
 .boot-logo {
-    margin: 0 auto 18px;
+    margin: 0 auto 20px;
     padding: 0;
 
     max-width: 100%;
@@ -398,13 +398,13 @@ body.boot-active {
     border: 0;
 
     font-family: Consolas, Monaco, "Courier New", monospace;
-    font-size: 9px;
+    font-size: 10px;
     line-height: 1.05;
     text-align: center;
     white-space: pre;
 
     text-shadow:
-        0 0 2px rgba(244, 197, 66, 0.35);
+        0 0 2px rgba(244, 197, 66, 0.28);
 }
 
 .boot-title {
