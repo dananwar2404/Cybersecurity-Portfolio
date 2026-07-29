@@ -228,24 +228,6 @@ body {
     margin: 35px 0;
 }
 
-/* Tables */
-.markdown-section table {
-    background: var(--panel);
-    border: 1px solid rgba(212, 175, 55, 0.25);
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.markdown-section th {
-    background: rgba(111, 66, 193, 0.28);
-    color: var(--soft-gold);
-}
-
-.markdown-section td,
-.markdown-section th {
-    border-color: rgba(212, 175, 55, 0.16);
-}
-
 /* GitHub corner */
 .github-corner svg {
     fill: var(--purple);
@@ -632,8 +614,34 @@ body.boot-active {
 ====================================== */
 
 .markdown-section table {
-    width: auto;
-    min-width: 700px;
-    margin: 30px auto;
+    width: fit-content;
+    max-width: 100%;
+    margin: 35px auto;
+
     border-collapse: collapse;
+
+    background: var(--panel);
+    border: 1px solid rgba(212,175,55,.25);
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.markdown-section th,
+.markdown-section td{
+    padding:14px 20px;
+    white-space:nowrap;
+}
+
+.markdown-section th{
+    text-align:center;
+}
+
+.markdown-section td:first-child{
+    font-weight:700;
+    color:var(--soft-gold);
+}
+
+.markdown-section td:last-child{
+    color:var(--text);
 }
