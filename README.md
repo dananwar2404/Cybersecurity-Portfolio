@@ -8,9 +8,7 @@
 
 Welcome to my cybersecurity portfolio.
 
-This portfolio showcases hands-on cybersecurity projects completed through academic coursework, independent research, and practical lab environments. My work focuses on artificial intelligence, malware analysis, incident response, digital forensics, defensive security, and risk management.
-
-Every project includes technical documentation, reports, screenshots, and demonstrations to highlight both the investigative process and the final results.
+I am a cybersecurity student with a focus on AI-assisted security, incident response, malware analysis, threat intelligence, digital forensics, and vulnerability management. This portfolio demonstrates practical security projects developed through independent research, software development, and hands-on lab environments. Each project documents the methodology, technical analysis, findings, and remediation strategies used to investigate and solve real-world security scenarios.
 
 Featured Projects
 
