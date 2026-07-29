@@ -30,7 +30,73 @@
 >
 </head>
 
-<body>
+<body class="boot-active">
+
+  <div id="boot-screen" role="dialog" aria-label="Portfolio loading screen">
+    <div class="boot-terminal">
+
+      <pre class="boot-logo">
+┌───────────────────────────────────────────────────────────────┐
+│                                                               │
+│   ██████╗  █████╗ ███╗   ██╗██╗██╗   ██╗ █████╗ ██╗           │
+│   ██╔══██╗██╔══██╗████╗  ██║██║╚██╗ ██╔╝██╔══██╗██║           │
+│   ██║  ██║███████║██╔██╗ ██║██║ ╚████╔╝ ███████║██║           │
+│   ██║  ██║██╔══██║██║╚██╗██║██║  ╚██╔╝  ██╔══██║██║           │
+│   ██████╔╝██║  ██║██║ ╚████║██║   ██║   ██║  ██║███████╗      │
+│   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝      │
+│                                                               │
+│                 CYBERSECURITY PORTFOLIO                       │
+│                                                               │
+└───────────────────────────────────────────────────────────────┘
+      </pre>
+
+      <div class="boot-output">
+        <p class="boot-line line-1">
+          <span>[SYSTEM]</span> Initializing cybersecurity portfolio...
+        </p>
+
+        <p class="boot-line line-2">
+          <span>[LOAD]</span> AI security modules
+          <strong>[OK]</strong>
+        </p>
+
+        <p class="boot-line line-3">
+          <span>[LOAD]</span> Blue Team operations
+          <strong>[OK]</strong>
+        </p>
+
+        <p class="boot-line line-4">
+          <span>[LOAD]</span> Red Team operations
+          <strong>[OK]</strong>
+        </p>
+
+        <p class="boot-line line-5">
+          <span>[LOAD]</span> Incident response case files
+          <strong>[OK]</strong>
+        </p>
+
+        <p class="boot-line line-6">
+          <span>[LOAD]</span> Malware analysis reports
+          <strong>[OK]</strong>
+        </p>
+
+        <p class="boot-line line-7">
+          <span>[READY]</span> Portfolio initialized successfully.
+        </p>
+      </div>
+
+      <button id="enter-portfolio" type="button">
+        ENTER PORTFOLIO
+      </button>
+
+      <p class="boot-hint">
+        Click the button or press Enter
+        <span class="terminal-cursor">_</span>
+      </p>
+
+    </div>
+  </div>
+
   <div id="app">Loading portfolio...</div>
 
   <script>
