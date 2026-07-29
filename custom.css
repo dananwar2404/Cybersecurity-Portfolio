@@ -387,9 +387,10 @@ body.boot-active {
 }
 
 .boot-logo {
-    margin: 0 auto 28px;
+    margin: 0 auto 18px;
     padding: 0;
 
+    max-width: 100%;
     overflow-x: auto;
 
     color: #f4c542;
@@ -397,37 +398,32 @@ body.boot-active {
     border: 0;
 
     font-family: Consolas, Monaco, "Courier New", monospace;
-    font-size: clamp(8px, 1.35vw, 15px);
-    line-height: 1.15;
+    font-size: clamp(6px, 0.85vw, 10px);
+    line-height: 1;
     text-align: center;
     white-space: pre;
 
     text-shadow:
-        0 0 8px rgba(244, 197, 66, 0.72),
-        0 0 24px rgba(117, 63, 205, 0.35);
+        0 0 5px rgba(244, 197, 66, 0.45),
+        0 0 14px rgba(117, 63, 205, 0.22);
 }
+.boot-title {
+    margin-top: 0;
+    margin-bottom: 26px;
 
-.boot-title{
-    margin-top:12px;
-    margin-bottom:30px;
+    text-align: center;
 
-    text-align:center;
+    color: #f4c542;
 
-    color:#f4c542;
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 12px;
+    font-weight: 700;
 
-    font-family:Consolas, Monaco, "Courier New", monospace;
-
-    font-size:18px;
-
-    letter-spacing:8px;
-
-    font-weight:700;
-
-    text-transform:uppercase;
+    letter-spacing: 6px;
+    text-transform: uppercase;
 
     text-shadow:
-        0 0 12px rgba(244,197,66,.7),
-        0 0 28px rgba(117,63,205,.3);
+        0 0 6px rgba(244, 197, 66, 0.35);
 }
 
 .boot-output {
