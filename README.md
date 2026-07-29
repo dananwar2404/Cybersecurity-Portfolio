@@ -22,7 +22,7 @@ Featured Projects
 
 🎯 Equifax MITRE ATT&CK Analysis
 
-🔍 Enterprise Vulnerability Assessment
+🔍 Enterprise Vulnerability Assessments
 
 # 💻 Technical Skills
 
