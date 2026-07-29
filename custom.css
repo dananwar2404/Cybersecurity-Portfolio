@@ -319,5 +319,214 @@ body {
         animation: none;
     }
 }
+/* =========================================
+   PURPLE AND GOLD BOOT SCREEN
+========================================= */
 
+body.boot-active {
+    overflow: hidden;
+}
+
+#boot-screen {
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 24px;
+    box-sizing: border-box;
+
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(117, 63, 205, 0.38),
+            transparent 42%
+        ),
+        radial-gradient(
+            circle at bottom left,
+            rgba(244, 197, 66, 0.20),
+            transparent 38%
+        ),
+        linear-gradient(
+            135deg,
+            #09060f 0%,
+            #170d25 48%,
+            #0b0712 100%
+        );
+
+    color: #eee8f5;
+}
+
+.boot-terminal {
+    width: min(900px, 94vw);
+    max-height: 92vh;
+    overflow: auto;
+
+    padding: 38px;
+    box-sizing: border-box;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(33, 20, 50, 0.98),
+            rgba(17, 11, 27, 0.98)
+        );
+
+    border: 1px solid rgba(244, 197, 66, 0.55);
+    border-radius: 14px;
+
+    box-shadow:
+        0 0 28px rgba(117, 63, 205, 0.42),
+        0 0 75px rgba(244, 197, 66, 0.12),
+        inset 0 0 35px rgba(255, 255, 255, 0.025);
+
+    font-family: Consolas, Monaco, "Courier New", monospace;
+}
+
+.boot-logo {
+    margin: 0 auto 28px;
+    padding: 0;
+
+    overflow-x: auto;
+
+    color: #f4c542;
+    background: transparent;
+    border: 0;
+
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: clamp(8px, 1.35vw, 15px);
+    line-height: 1.15;
+    text-align: center;
+    white-space: pre;
+
+    text-shadow:
+        0 0 8px rgba(244, 197, 66, 0.72),
+        0 0 24px rgba(117, 63, 205, 0.35);
+}
+
+.boot-output {
+    margin: 0 auto 28px;
+    max-width: 680px;
+}
+
+.boot-line {
+    margin: 9px 0;
+
+    color: #ded5eb;
+
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.boot-line span {
+    color: #ae7cff;
+    font-weight: 700;
+}
+
+.boot-line strong {
+    float: right;
+
+    color: #f4c542;
+    font-weight: 700;
+
+    text-shadow:
+        0 0 8px rgba(244, 197, 66, 0.55);
+}
+
+#enter-portfolio {
+    display: block;
+
+    margin: 26px auto 16px;
+    padding: 13px 28px;
+
+    color: #160d22;
+    background: linear-gradient(
+        135deg,
+        #f7d35e,
+        #e6b82f
+    );
+
+    border: 1px solid #ffe58a;
+    border-radius: 6px;
+
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 0 18px rgba(244, 197, 66, 0.38);
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+#enter-portfolio:hover,
+#enter-portfolio:focus-visible {
+    color: #ffffff;
+
+    background: linear-gradient(
+        135deg,
+        #8d5cf6,
+        #6330c7
+    );
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 0 24px rgba(141, 92, 246, 0.65),
+        0 0 44px rgba(244, 197, 66, 0.18);
+
+    outline: none;
+}
+
+.boot-hint {
+    margin: 0;
+
+    color: #9f93ad;
+
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 12px;
+    text-align: center;
+}
+
+.terminal-cursor {
+    color: #f4c542;
+
+    animation: bootCursor 0.8s steps(1) infinite;
+}
+
+@keyframes bootCursor {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #boot-screen {
+        padding: 12px;
+    }
+
+    .boot-terminal {
+        width: 100%;
+        padding: 22px 16px;
+    }
+
+    .boot-line {
+        font-size: 12px;
+    }
+
+    .boot-line strong {
+        float: none;
+        margin-left: 8px;
+    }
+}
 
