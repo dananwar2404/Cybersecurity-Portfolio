@@ -144,17 +144,48 @@
   }
 };
   </script>
-  <script>
+ <script>
 document.addEventListener('DOMContentLoaded', function () {
     const bootScreen = document.getElementById('boot-screen');
     const enterButton = document.getElementById('enter-portfolio');
+    const bootHint = document.querySelector('.boot-hint');
+    const bootLines = document.querySelectorAll('.boot-line');
+
+    bootLines.forEach(function (line) {
+        line.style.visibility = 'hidden';
+    });
+
+    if (enterButton) {
+        enterButton.style.visibility = 'hidden';
+    }
+
+    if (bootHint) {
+        bootHint.style.visibility = 'hidden';
+    }
+
+    bootLines.forEach(function (line, index) {
+        setTimeout(function () {
+            line.style.visibility = 'visible';
+
+            if (index === bootLines.length - 1) {
+                setTimeout(function () {
+                    if (enterButton) {
+                        enterButton.style.visibility = 'visible';
+                    }
+
+                    if (bootHint) {
+                        bootHint.style.visibility = 'visible';
+                    }
+                }, 350);
+            }
+        }, 500 + index * 500);
+    });
 
     function enterPortfolio() {
         if (!bootScreen) return;
 
         bootScreen.style.opacity = '0';
         bootScreen.style.pointerEvents = 'none';
-
         document.body.classList.remove('boot-active');
 
         setTimeout(function () {
@@ -167,7 +198,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     document.addEventListener('keydown', function (event) {
-        if (event.key === 'Enter') {
+        if (
+            event.key === 'Enter' &&
+            enterButton &&
+            enterButton.style.visibility === 'visible'
+        ) {
             enterPortfolio();
         }
     });
