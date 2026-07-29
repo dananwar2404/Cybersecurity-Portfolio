@@ -11,14 +11,14 @@
 
 ## 🛡️ Blue Team
 
-* [Network Defense](Blue Team/Network Defense/README.md)
-* [Secure Communications](Blue Team/Secure Communications/README.md)
-* [System Hardening](Blue Team/System Hardening/README.md)
-* [Identity & Access Management](Blue Team/Identity and Access Management/README.md)
+* [Network Defense](/Blue%20Team/Network%20Defense/README.md)
+* [Secure Communications](/Blue%20Team/Secure%20Communications/README.md)
+* [System Hardening](/Blue%20Team/System%20Hardening/README.md)
+* [Identity & Access Management](/Blue%20Team/Identity%20and%20Access%20Management/README.md)
 
 ---
 
 ## ⚔️ Red Team
 
-* [Offensive Operations](Red Team/Offensive operations/README.md)
-* [Social Engineering](Red Team/Social Engineering/README.md)
+* [Offensive Operations](/Red%20Teaming/Offensive%20operations/README.md)
+* [Social Engineering](/Red%20Teaming/Social%20Engineering/README.md)
