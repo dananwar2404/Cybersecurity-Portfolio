@@ -37,6 +37,21 @@
   window.$docsify = {
   name: 'Daniyal Anwar',
   repo: 'dananwar2404/Cybersecurity-Portfolio',
+  plugins: [
+    function (hook) {
+        hook.doneEach(function () {
+            const content = document.querySelector('.markdown-section');
+
+            if (!content) return;
+
+            content.classList.remove('page-enter');
+
+            void content.offsetWidth;
+
+            content.classList.add('page-enter');
+        });
+    }
+],
 
   homepage: 'README.md',
   loadSidebar: '_sidebar.md',
