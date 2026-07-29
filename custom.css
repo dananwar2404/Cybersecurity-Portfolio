@@ -1,11 +1,11 @@
 /* Sidebar width */
 .sidebar {
-    width: 300px;
+    width: 350px;
 }
 
 /* Move the main content over */
 .content {
-    left: 300px;
+    left: 350px;
 }
 
 /* Padding around the navigation */
