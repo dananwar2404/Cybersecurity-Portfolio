@@ -29,6 +29,22 @@ This project explores how machine-learning algorithms can be used to detect spam
 | 📊 [Confusion Matrix](./confusion-matrix.png) | Visualization of the model's classification performance. |
 | 📄 [Reflection Paper](./Reflection.docx) | Written analysis discussing the project methodology, results, and lessons learned. |
 
+ **Python Source Code**
+
+<div class="terminal-viewer">
+
+<div class="terminal-header">
+<span class="terminal-dot"></span>
+<span class="terminal-dot"></span>
+<span class="terminal-dot"></span>
+<span class="terminal-title">Lab2_Spam_Detection.py</span>
+</div>
+
+<pre id="spam-code"><code class="language-python">
+Loading source code...
+</code></pre>
+
+</div>
 ---
 
 ## Methodology
