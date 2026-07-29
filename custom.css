@@ -32,27 +32,22 @@
 .sidebar-nav li {
     margin: 6px 0;
 }
-/* Make section headers stand out */
+/* Section headers */
 .sidebar-nav > ul > li {
     font-weight: 700;
     color: #58a6ff;
-    margin-top: 18px;
-    margin-bottom: 8px;
     font-size: 16px;
-}
-
-/* More breathing room around section headers */
-.sidebar-nav > ul > li {
     margin-top: 18px;
     margin-bottom: 10px;
 }
 
-/* Slightly indent child items */
+/* Indent child items */
 .sidebar-nav ul ul {
     padding-left: 18px;
 }
 
-/* Make links a little easier to read */
+/* Give links breathing room */
 .sidebar-nav a {
-    padding: 4px 0;
     display: inline-block;
+    padding: 4px 0;
+}
