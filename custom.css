@@ -1,1 +1,20 @@
+/* Add padding to the sidebar */
+.sidebar {
+    padding-left: 18px;
+    padding-right: 18px;
+}
 
+/* Indent nested menu items a bit more */
+.sidebar-nav ul ul {
+    padding-left: 16px;
+}
+
+/* Give each menu item a little breathing room */
+.sidebar-nav li {
+    margin: 4px 0;
+}
+
+/* Optional: slightly larger section labels */
+.sidebar-nav > ul > li {
+    margin-top: 12px;
+}
