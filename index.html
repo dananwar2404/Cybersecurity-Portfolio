@@ -182,176 +182,18 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 500 + index * 500);
     });
 
-  /* =========================================
-   SPIRAL BLACK-HOLE PAGE TRANSITION
-========================================= */
+    function enterPortfolio() {
+        if (!bootScreen) return;
 
-#black-hole-transition {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    z-index: 1000000;
+        bootScreen.style.opacity = '0';
+        bootScreen.style.pointerEvents = 'none';
+        document.body.classList.remove('boot-active');
 
-    width: 24px;
-    height: 24px;
-
-    background: #000;
-    border-radius: 50%;
-
-    opacity: 0;
-    pointer-events: none;
-
-    transform: translate(-50%, -50%) scale(0);
-
-    box-shadow:
-        0 0 12px 5px rgba(0, 0, 0, 1),
-        0 0 28px 12px rgba(117, 63, 205, 0.75),
-        0 0 48px 20px rgba(244, 197, 66, 0.35);
-}
-
-#black-hole-transition.active {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-
-    animation: blackHolePulse 0.55s ease-in-out infinite alternate;
-}
-
-#black-hole-transition.expand {
-    opacity: 1;
-
-    transform:
-        translate(-50%, -50%)
-        scale(190);
-
-    transition:
-        transform 0.7s cubic-bezier(.72, 0, .28, 1);
-}
-
-#black-hole-transition.collapse {
-    opacity: 1;
-
-    transform:
-        translate(-50%, -50%)
-        scale(0);
-
-    transition:
-        transform 0.75s cubic-bezier(.22, .8, .3, 1);
-}
-
-@keyframes blackHolePulse {
-    from {
-        box-shadow:
-            0 0 12px 5px rgba(0, 0, 0, 1),
-            0 0 28px 12px rgba(117, 63, 205, 0.55),
-            0 0 48px 20px rgba(244, 197, 66, 0.25);
+        setTimeout(function () {
+            bootScreen.style.display = 'none';
+        }, 500);
     }
 
-    to {
-        box-shadow:
-            0 0 18px 8px rgba(0, 0, 0, 1),
-            0 0 42px 18px rgba(117, 63, 205, 0.9),
-            0 0 68px 28px rgba(244, 197, 66, 0.4);
-    }
-}
-
-.black-hole-sucked {
-    animation:
-        suckIntoBlackHole 0.62s
-        cubic-bezier(.76, 0, .24, 1)
-        var(--suck-delay, 0ms)
-        forwards;
-
-    transform-origin: center;
-    will-change: transform, opacity, filter;
-}
-
-@keyframes suckIntoBlackHole {
-    0% {
-        opacity: 1;
-        transform:
-            translate(0, 0)
-            rotate(0deg)
-            scale(1);
-
-        filter: blur(0);
-    }
-
-    55% {
-        opacity: 0.9;
-        transform:
-            translate(
-                calc(var(--suck-x) * 0.65),
-                calc(var(--suck-y) * 0.65)
-            )
-            rotate(160deg)
-            scale(0.45);
-
-        filter: blur(2px);
-    }
-
-    100% {
-        opacity: 0;
-        transform:
-            translate(
-                var(--suck-x),
-                var(--suck-y)
-            )
-            rotate(420deg)
-            scale(0.02);
-
-        filter: blur(10px);
-    }
-}
-
-.boot-terminal.terminal-collapse {
-    border-color: transparent;
-    box-shadow: none;
-
-    animation: terminalCollapse 0.8s ease forwards;
-}
-
-@keyframes terminalCollapse {
-    from {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    to {
-        opacity: 0;
-        transform: scale(0.82);
-    }
-}
-
-.markdown-section.home-drop-in {
-    animation: homeDropIn 0.75s cubic-bezier(.2, .9, .25, 1.15) both;
-}
-
-@keyframes homeDropIn {
-    from {
-        opacity: 0;
-        transform: translateY(-70px) scale(0.96);
-    }
-
-    70% {
-        opacity: 1;
-        transform: translateY(8px) scale(1.01);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    #black-hole-transition,
-    .black-hole-sucked,
-    .boot-terminal.terminal-collapse,
-    .markdown-section.home-drop-in {
-        animation: none;
-        transition: none;
-    }
-}
     if (enterButton) {
         enterButton.addEventListener('click', enterPortfolio);
     }
