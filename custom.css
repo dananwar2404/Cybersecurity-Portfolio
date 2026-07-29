@@ -549,3 +549,81 @@ body.boot-active {
     }
 }
 
+/* =========================================
+   BLACK-HOLE PAGE TRANSITION
+========================================= */
+
+#black-hole-transition {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 1000000;
+
+    width: 20px;
+    height: 20px;
+
+    background: #000;
+    border-radius: 50%;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transform: translate(-50%, -50%) scale(0);
+
+    box-shadow:
+        0 0 35px rgba(0, 0, 0, 0.95),
+        0 0 90px rgba(0, 0, 0, 0.85);
+}
+
+#black-hole-transition.expand {
+    opacity: 1;
+
+    transform:
+        translate(-50%, -50%)
+        scale(180);
+
+    transition:
+        transform 0.65s cubic-bezier(.75, 0, .25, 1),
+        opacity 0.1s linear;
+}
+
+#black-hole-transition.collapse {
+    opacity: 1;
+
+    transform:
+        translate(-50%, -50%)
+        scale(0);
+
+    transition:
+        transform 0.7s cubic-bezier(.4, 0, .2, 1);
+}
+
+.boot-terminal.sucked-in .boot-logo,
+.boot-terminal.sucked-in .boot-title,
+.boot-terminal.sucked-in .boot-output,
+.boot-terminal.sucked-in #enter-portfolio,
+.boot-terminal.sucked-in .boot-hint {
+    opacity: 0;
+
+    transform:
+        scale(0.02)
+        rotate(8deg);
+
+    filter: blur(8px);
+
+    transition:
+        opacity 0.4s ease,
+        transform 0.4s cubic-bezier(.7, 0, .3, 1),
+        filter 0.4s ease;
+}
+
+.boot-terminal.sucked-in {
+    border-color: transparent;
+    box-shadow: none;
+    transform: scale(0.94);
+
+    transition:
+        transform 0.45s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
