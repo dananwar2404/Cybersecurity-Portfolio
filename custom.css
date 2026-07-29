@@ -280,3 +280,18 @@ body {
         padding: 30px 22px 60px;
     }
 }
+/* Show collapsible sidebar arrows */
+.sidebar-nav li.folder::before {
+    color: var(--soft-gold);
+}
+
+.sidebar-nav li.folder.open::before {
+    color: var(--bright-purple);
+}
+
+/* Keep folder headings clickable and visible */
+.sidebar-nav li.folder > strong,
+.sidebar-nav li.folder > p {
+    cursor: pointer;
+    color: var(--gold);
+}
