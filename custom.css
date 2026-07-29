@@ -693,10 +693,28 @@ body.boot-active {
 }
 
 .boot-subtitle {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 18px auto 28px;
+
     opacity: 0;
     transform: translateY(8px);
 
+    text-align: center;
+
+    color: #f4c542;
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
     animation: subtitle-fade .7s ease 1.15s forwards;
+
 }
 
 .boot-daniyal,
