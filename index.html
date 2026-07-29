@@ -48,31 +48,29 @@
   <div id="app">Loading portfolio...</div>
 
   <script>
-    window.$docsify = {
-      name: 'Daniyal Anwar',
-      repo: 'dananwar2404/Cybersecurity-Portfolio',
+  window.$docsify = {
+  name: 'Daniyal Anwar',
+  repo: 'dananwar2404/Cybersecurity-Portfolio',
 
-      homepage: 'README.md',
+  homepage: 'README.md',
+  loadSidebar: '_sidebar.md',
 
-      loadSidebar: true,
-      autoHeader: true,
-      subMaxLevel: 2,
-      maxLevel: 3,
+  autoHeader: true,
+  subMaxLevel: 2,
+  maxLevel: 3,
 
-      relativePath: true,
+  search: {
+    placeholder: 'Search portfolio',
+    noData: 'No results found',
+    depth: 4
+  },
 
-      search: {
-        placeholder: 'Search portfolio',
-        noData: 'No results found',
-        depth: 4
-      },
-
-      copyCode: {
-        buttonText: 'Copy',
-        errorText: 'Error',
-        successText: 'Copied'
-      }
-    };
+  copyCode: {
+    buttonText: 'Copy',
+    errorText: 'Error',
+    successText: 'Copied'
+  }
+};
   </script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
