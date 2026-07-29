@@ -1,53 +1,282 @@
-/* Sidebar width */
-.sidebar {
-    width: 350px;
+/* =========================
+   GOLD + PURPLE CYBER THEME
+   ========================= */
+
+:root {
+    --theme-color: #d4af37;
+    --gold: #d4af37;
+    --soft-gold: #f4d06f;
+    --purple: #6f42c1;
+    --bright-purple: #a855f7;
+    --background: #0d0b14;
+    --panel: #171220;
+    --panel-light: #21182e;
+    --text: #eee8f5;
+    --muted: #b8acc6;
 }
 
-/* Move the main content over */
+/* Main page */
+body {
+    background:
+        radial-gradient(circle at top right, rgba(111, 66, 193, 0.16), transparent 32%),
+        radial-gradient(circle at bottom left, rgba(212, 175, 55, 0.08), transparent 28%),
+        var(--background);
+    color: var(--text);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 350px;
+    padding: 0 22px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(111, 66, 193, 0.16),
+            rgba(13, 11, 20, 0.96) 40%
+        );
+    border-right: 1px solid rgba(212, 175, 55, 0.35);
+    box-shadow: 8px 0 28px rgba(0, 0, 0, 0.3);
+}
+
 .content {
     left: 350px;
 }
 
-/* Padding around the navigation */
-.sidebar-nav {
-    padding: 0 20px;
+/* Portfolio name */
+.app-name {
+    margin-top: 25px;
 }
 
-/* Padding around the search box */
+.app-name-link {
+    color: var(--soft-gold) !important;
+    font-family: Consolas, "Courier New", monospace;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-shadow: 0 0 12px rgba(212, 175, 55, 0.25);
+}
+
+/* Search area */
 .search {
-    padding: 16px 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(168, 85, 247, 0.3);
 }
 
-/* Remove default list padding */
+.search input {
+    background: rgba(23, 18, 32, 0.9);
+    color: var(--text);
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border-radius: 8px;
+    padding: 11px 13px;
+}
+
+.search input:focus {
+    border-color: var(--bright-purple);
+    box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.15);
+}
+
+/* Sidebar layout */
+.sidebar-nav {
+    padding: 0;
+}
+
 .sidebar-nav ul {
     padding-left: 0;
 }
 
-/* Indent child items */
 .sidebar-nav ul ul {
     padding-left: 18px;
 }
 
-/* Space between items */
 .sidebar-nav li {
-    margin: 6px 0;
+    margin: 7px 0;
 }
-/* Section headers */
+
+/* Main section labels */
 .sidebar-nav > ul > li {
-    font-weight: 700;
-    color: #58a6ff;
-    font-size: 16px;
-    margin-top: 18px;
+    margin-top: 20px;
     margin-bottom: 10px;
+    color: var(--gold);
+    font-size: 15px;
+    font-weight: 700;
 }
 
-/* Indent child items */
-.sidebar-nav ul ul {
-    padding-left: 18px;
-}
-
-/* Give links breathing room */
+/* Sidebar links */
 .sidebar-nav a {
-    display: inline-block;
-    padding: 4px 0;
+    display: block;
+    padding: 5px 8px;
+    color: var(--muted);
+    border-left: 2px solid transparent;
+    border-radius: 4px;
+    transition:
+        color 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.sidebar-nav a:hover {
+    color: var(--soft-gold);
+    background: rgba(168, 85, 247, 0.1);
+    border-left-color: var(--bright-purple);
+    transform: translateX(3px);
+}
+
+.sidebar-nav li.active > a {
+    color: var(--soft-gold);
+    background: linear-gradient(
+        90deg,
+        rgba(111, 66, 193, 0.26),
+        rgba(212, 175, 55, 0.05)
+    );
+    border-left-color: var(--gold);
+}
+
+/* Main document area */
+.markdown-section {
+    max-width: 1050px;
+    padding: 45px 45px 80px;
+}
+
+/* Headings */
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3 {
+    color: var(--text);
+    font-weight: 700;
+}
+
+.markdown-section h1 {
+    color: var(--soft-gold);
+    font-family: Consolas, "Courier New", monospace;
+    letter-spacing: 0.5px;
+    text-shadow: 0 0 18px rgba(212, 175, 55, 0.18);
+}
+
+.markdown-section h2 {
+    margin-top: 42px;
+    color: var(--bright-purple);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.28);
+    padding-bottom: 10px;
+}
+
+.markdown-section h3 {
+    color: var(--soft-gold);
+}
+
+/* Body text */
+.markdown-section p,
+.markdown-section li {
+    color: var(--text);
+    line-height: 1.75;
+}
+
+/* Links */
+.markdown-section a {
+    color: var(--soft-gold);
+    font-weight: 600;
+}
+
+.markdown-section a:hover {
+    color: var(--bright-purple);
+    text-shadow: 0 0 8px rgba(168, 85, 247, 0.35);
+}
+
+/* Blockquotes become terminal panels */
+.markdown-section blockquote {
+    margin: 24px 0;
+    padding: 18px 22px;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(111, 66, 193, 0.16),
+            rgba(212, 175, 55, 0.06)
+        );
+    border-left: 4px solid var(--gold);
+    border-radius: 7px;
+    color: var(--text);
+}
+
+/* Code styling */
+.markdown-section code {
+    color: var(--soft-gold);
+    background: rgba(111, 66, 193, 0.18);
+    border: 1px solid rgba(168, 85, 247, 0.2);
+    border-radius: 4px;
+    font-family: Consolas, "Courier New", monospace;
+}
+
+.markdown-section pre {
+    background: #09070e;
+    border: 1px solid rgba(212, 175, 55, 0.28);
+    border-radius: 8px;
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.28),
+        inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+/* Horizontal dividers */
+.markdown-section hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        var(--purple),
+        var(--gold),
+        transparent
+    );
+    margin: 35px 0;
+}
+
+/* Tables */
+.markdown-section table {
+    background: var(--panel);
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.markdown-section th {
+    background: rgba(111, 66, 193, 0.28);
+    color: var(--soft-gold);
+}
+
+.markdown-section td,
+.markdown-section th {
+    border-color: rgba(212, 175, 55, 0.16);
+}
+
+/* GitHub corner */
+.github-corner svg {
+    fill: var(--purple);
+    color: var(--soft-gold);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--purple), var(--gold));
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 300px;
+    }
+
+    .content {
+        left: 0;
+    }
+
+    .markdown-section {
+        padding: 30px 22px 60px;
+    }
 }
