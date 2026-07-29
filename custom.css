@@ -295,3 +295,29 @@ body {
     cursor: pointer;
     color: var(--gold);
 }
+/* Main content slide-in animation */
+@keyframes slideFromSidebar {
+    from {
+        opacity: 0;
+        transform: translateX(-70px);
+        filter: blur(3px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+        filter: blur(0);
+    }
+}
+
+/* Applied by the Docsify animation plugin */
+.markdown-section.page-enter {
+    animation: slideFromSidebar 0.65s ease-out both;
+}
+
+/* Respect accessibility preferences */
+@media (prefers-reduced-motion: reduce) {
+    .markdown-section.page-enter {
+        animation: none;
+    }
+}
