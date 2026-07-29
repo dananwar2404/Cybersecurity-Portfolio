@@ -1,6 +1,6 @@
 # Daniyal Anwar
 
-**AI Cybersecurity • Incident Response • Malware Analysis & Response • Digital Forensics • Blue Teaming  • Red Teaming  • Databases & Data Mining**
+**AI Cybersecurity • Digital Forensics & Incident Response • Malware Analysis & Response • Blue Teaming  • Red Teaming  • Databases & Data Mining**
 
 ---
 
