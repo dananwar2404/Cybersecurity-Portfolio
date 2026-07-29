@@ -296,28 +296,28 @@ body {
     color: var(--gold);
 }
 /* Main content slide-in animation */
-@keyframes slideFromSidebar {
+/* Smooth page-entry animation */
+@keyframes pageSlideIn {
     from {
         opacity: 0;
-        transform: translateX(-70px);
-        filter: blur(3px);
+        transform: translateX(-28px);
     }
 
     to {
         opacity: 1;
         transform: translateX(0);
-        filter: blur(0);
     }
 }
 
-/* Applied by the Docsify animation plugin */
 .markdown-section.page-enter {
-    animation: slideFromSidebar 0.65s ease-out both;
+    animation: pageSlideIn 0.35s ease-out both;
+    will-change: opacity, transform;
 }
 
-/* Respect accessibility preferences */
 @media (prefers-reduced-motion: reduce) {
     .markdown-section.page-enter {
         animation: none;
     }
 }
+
+
