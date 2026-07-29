@@ -142,7 +142,35 @@
   }
 };
   </script>
+  <script>
+document.addEventListener('DOMContentLoaded', function () {
+    const bootScreen = document.getElementById('boot-screen');
+    const enterButton = document.getElementById('enter-portfolio');
 
+    function enterPortfolio() {
+        if (!bootScreen) return;
+
+        bootScreen.style.opacity = '0';
+        bootScreen.style.pointerEvents = 'none';
+
+        document.body.classList.remove('boot-active');
+
+        setTimeout(function () {
+            bootScreen.style.display = 'none';
+        }, 500);
+    }
+
+    if (enterButton) {
+        enterButton.addEventListener('click', enterPortfolio);
+    }
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+            enterPortfolio();
+        }
+    });
+});
+</script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
