@@ -19,9 +19,9 @@ This project explores the implementation and management of Identity and Access M
 
 ---
 
-## Project Files
+-## Project Files
 
-- 📄 [Using Enterprise Active Directory](Using enterprise active directory.pdf)
+- 📄 [Using Enterprise Active Directory](./Using%20enterprise%20active%20directory.pdf)
 
 ---
 
