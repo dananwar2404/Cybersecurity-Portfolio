@@ -18,11 +18,25 @@ This project examines techniques used to collect, analyze, and reconstruct netwo
 
 ## Project Files
 
-- 📄 [Conducting Forensic Investigations of Networks](./Conducting%20Forensic%20Investigations%20of%20Networks.pdf)
-- 📄 [Examining Networks](./Examining%20Networks.pdf)
-- 📄 [Packet Analysis Deep Dive](./Packet%20analysis%20deep%20dive.pdf)
+<ul>
+<li>
+<a href="./Conducting%20Forensic%20Investigations%20of%20Networks.pdf" target="_blank">
+📄 Conducting Forensic Investigations of Networks
+</a>
+</li>
 
----
+<li>
+<a href="./Examining%20Networks.pdf" target="_blank">
+📄 Examining Networks
+</a>
+</li>
+
+<li>
+<a href="./Packet%20analysis%20deep%20dive.pdf" target="_blank">
+📄 Packet Analysis Deep Dive
+</a>
+</li>
+</ul>
 
 ## What I Learned
 
