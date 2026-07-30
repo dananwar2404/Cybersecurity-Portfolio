@@ -17,9 +17,9 @@ This collection contains forensic investigation reports documenting digital evid
 ---
 
 ## Project Files
-## Project Files
 
 <ul>
+
 <li>
 <a href="./Mantooth%20report_anwar.pdf" target="_blank">
 📄 Mantooth Report
@@ -37,7 +37,9 @@ This collection contains forensic investigation reports documenting digital evid
 📄 Palpatine Report
 </a>
 </li>
+
 </ul>
+
 
 ## What I Learned
 
