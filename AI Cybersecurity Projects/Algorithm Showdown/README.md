@@ -1,4 +1,4 @@
-# 🧠 Machine Learning Algorithm Showdown
+# Machine Learning Algorithm Showdown
 
 ## Overview
 
