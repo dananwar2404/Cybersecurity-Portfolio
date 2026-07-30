@@ -20,7 +20,7 @@ This project focuses on the forensic investigation of email communications and c
 
 ## Project Files
 
-- 📄 [Conducting Forensic Investigations](Conducting%20Forensic%20Investigations.pdf)
+- 📄 [Conducting Forensic Investigations](./Conducting%20Forensic%20Investigations.pdf)
 
 ---
 
