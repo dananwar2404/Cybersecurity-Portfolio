@@ -30,7 +30,6 @@ This project explores how machine-learning algorithms can be used to detect spam
 | 📄 [Reflection Paper](./Reflection.docx) | Written analysis discussing the project methodology, results, and lessons learned. |
 
  **Python Source Code**
-
 <div class="terminal-viewer">
 
 <div class="terminal-header">
@@ -40,9 +39,7 @@ This project explores how machine-learning algorithms can be used to detect spam
 <span class="terminal-title">Lab2_Spam_Detection.py</span>
 </div>
 
-<pre id="spam-code"><code class="language-python">
-Loading source code...
-</code></pre>
+[Lab2_Spam_Detection.py](./Lab2_Spam_Detection.py ':include :type=code')
 
 </div>
 ---
