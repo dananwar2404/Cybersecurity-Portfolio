@@ -38,3 +38,18 @@
 
   * [<i class="fa-solid fa-terminal sidebar-icon"></i> Offensive Operations](/Red%20Teaming/Offensive%20operations/)
   * [<i class="fa-solid fa-user-secret sidebar-icon"></i> Social Engineering](/Red%20Teaming/Social%20Engineering/)
+
+* <span class="sidebar-section">
+  <i class="fa-solid fa-magnifying-glass sidebar-icon"></i>
+  Digital Forensics
+  </span>
+
+  * [<i class="fa-solid fa-envelope sidebar-icon"></i> Email & Chat Forensics](/Digital%20Forensics/Email%20and%20Chat%20Forensics/)
+  * [<i class="fa-solid fa-folder-open sidebar-icon"></i> Forensic Case Reports](/Digital%20Forensics/Forensic%20Case%20Reports/)
+  * [<i class="fa-solid fa-triangle-exclamation sidebar-icon"></i> Incident Response & Triage](/Digital%20Forensics/Incident%20Response%20%26%20Triage/)
+  * [<i class="fa-solid fa-scale-balanced sidebar-icon"></i> Legal Standards & Evidence Handling](/Digital%20Forensics/Legal%20Standards%20and%20Evidence%20Handling/)
+  * [<i class="fa-solid fa-memory sidebar-icon"></i> Memory Forensics](/Digital%20Forensics/Memory%20Forensics/)
+  * [<i class="fa-solid fa-mobile-screen-button sidebar-icon"></i> Mobile Forensics](/Digital%20Forensics/Mobile%20Forensics/)
+  * [<i class="fa-solid fa-network-wired sidebar-icon"></i> Network Forensics](/Digital%20Forensics/Network%20Forensics/)
+  * [<i class="fa-solid fa-desktop sidebar-icon"></i> Operating System Forensics](/Digital%20Forensics/Operating%20System%20Forensics/)
+  * [<i class="fa-solid fa-image sidebar-icon"></i> Steganography & Media Forensics](/Digital%20Forensics/Steganography%20and%20media%20Forensics/)
