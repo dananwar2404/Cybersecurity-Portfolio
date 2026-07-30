@@ -18,9 +18,13 @@ This project explores techniques used to identify, analyze, and recover hidden i
 
 ## Project Files
 
-- 📄 [Recognizing the Use of Steganography](./Recognizing%20the%20Use%20of%20Steganography.pdf)
-
----
+<ul>
+<li>
+<a href="./Recognizing%20the%20Use%20of%20Steganography.pdf" target="_blank">
+📄 Recognizing the Use of Steganography
+</a>
+</li>
+</ul>
 
 ## What I Learned
 
