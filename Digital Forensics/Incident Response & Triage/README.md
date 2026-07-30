@@ -18,11 +18,19 @@ This project focuses on the incident response lifecycle, emphasizing triage proc
 ---
 
 ## Project Files
+<ul>
+<li>
+<a href="./Conducting%20an%20Incident%20Response.pdf" target="_blank">
+📄 Conducting an Incident Response
+</a>
+</li>
 
-- 📄 [Conducting an Incident Response](./Conducting%20an%20Incident%20Response.pdf)
-- 📄 [Incidence Response Procedures](./Incidence%20response%20procedures.pdf)
-
----
+<li>
+<a href="./Incidence%20response%20procedures.pdf" target="_blank">
+📄 Incidence Response Procedures
+</a>
+</li>
+</ul>
 
 ## What I Learned
 
