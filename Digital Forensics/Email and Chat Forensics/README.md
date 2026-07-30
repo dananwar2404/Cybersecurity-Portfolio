@@ -19,9 +19,14 @@ This project focuses on the forensic investigation of email communications and c
 ---
 
 ## Project Files
-
-- 📄 [Conducting Forensic Investigations on Email and Chat Logs](./Conducting%20Forensic%20Investigations%20on%20Email%20and%20Chat%20Logs%20%284e%29%20-%20Mohammed%20Anwar.pdf)
-
+<ul>
+<li>
+<a href="Digital%20Forensics/Email%20and%20Chat%20Forensics/Conducting%20Forensic%20Investigations%20on%20Email%20and%20Chat%20Logs%20%284e%29%20-%20Mohammed%20Anwar.pdf"
+target="_blank">
+📄 Conducting Forensic Investigations on Email and Chat Logs
+</a>
+</li>
+</ul>
 ---
 
 ## What I Learned
