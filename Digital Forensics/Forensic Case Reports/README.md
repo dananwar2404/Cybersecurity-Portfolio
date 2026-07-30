@@ -17,12 +17,27 @@ This collection contains forensic investigation reports documenting digital evid
 ---
 
 ## Project Files
+## Project Files
 
-- 📄 [Mantooth Report](./Mantooth%20report_anwar.pdf)
-- 📄 [Kreshna Lusha Report](./kreshna%20lusha%20report.pdf)
-- 📄 [Palpatine Report](./palpatine%20report.pdf)
+<ul>
+<li>
+<a href="./Mantooth%20report_anwar.pdf" target="_blank">
+📄 Mantooth Report
+</a>
+</li>
 
----
+<li>
+<a href="./kreshna%20lusha%20report.pdf" target="_blank">
+📄 Kreshna Lusha Report
+</a>
+</li>
+
+<li>
+<a href="./palpatine%20report.pdf" target="_blank">
+📄 Palpatine Report
+</a>
+</li>
+</ul>
 
 ## What I Learned
 
