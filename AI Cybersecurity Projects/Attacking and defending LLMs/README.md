@@ -1,4 +1,4 @@
-# 🤖 AI Security: Attacking and Defending Large Language Models
+# AI Security: Attacking and Defending Large Language Models
 
 ## Overview
 
