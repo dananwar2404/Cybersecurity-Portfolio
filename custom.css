@@ -763,80 +763,106 @@ body.boot-active {
 .boot-output {
     opacity: 1;
 }
-/* ---------- TERMINAL CODE VIEWER ---------- */
+/* =========================================
+   PYTHON CODE VIEWER
+   ========================================= */
 
-.terminal-viewer{
-    margin:30px auto;
-    max-width:1000px;
+.terminal-viewer {
+    position: relative;
+    max-width: 1000px;
+    margin: 28px auto 40px;
+    overflow: hidden;
 
-    background:#09090c;
-
-    border:1px solid rgba(212,175,55,.30);
-
-    border-radius:10px;
-
-    overflow:hidden;
+    background: #09090d;
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-radius: 10px;
 
     box-shadow:
-        0 0 25px rgba(111,66,193,.18);
+        0 18px 45px rgba(0, 0, 0, 0.45),
+        0 0 24px rgba(111, 66, 193, 0.16);
 }
 
-.terminal-header{
+.terminal-header {
+    display: flex;
+    align-items: center;
+    min-height: 42px;
+    padding: 0 15px;
 
-    height:42px;
+    background: linear-gradient(
+        90deg,
+        #17121f,
+        #1d1727
+    );
 
-    display:flex;
-
-    align-items:center;
-
-    padding:0 15px;
-
-    background:#15131b;
-
-    border-bottom:1px solid rgba(212,175,55,.15);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.25);
 }
 
-.terminal-dot{
+.terminal-dot {
+    width: 11px;
+    height: 11px;
+    margin-right: 8px;
 
-    width:11px;
-    height:11px;
+    background: #d4af37;
+    border-radius: 50%;
 
-    margin-right:8px;
-
-    border-radius:50%;
-
-    background:#D4AF37;
+    box-shadow: 0 0 7px rgba(212, 175, 55, 0.35);
 }
 
-.terminal-title{
+.terminal-title {
+    margin-left: 9px;
 
-    margin-left:10px;
-
-    color:#b8b8b8;
-
-    font-family:Consolas,monospace;
-
-    font-size:13px;
+    color: #c5c1cb;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 13px;
+    letter-spacing: 0.2px;
 }
 
-.terminal-viewer pre{
+.terminal-viewer pre {
+    max-height: 650px;
+    margin: 0 !important;
+    padding: 24px !important;
+    overflow: auto;
 
-    margin:0 !important;
-
-    max-height:650px;
-
-    overflow:auto;
-
-    background:#09090c !important;
-
-    padding:20px !important;
+    background: #09090d !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
 
-.terminal-viewer code{
+.terminal-viewer pre::after,
+.terminal-viewer pre::before {
+    display: none !important;
+}
 
-    font-size:14px;
+.terminal-viewer code {
+    display: block;
+    min-width: max-content;
 
-    line-height:1.6;
+    background: transparent !important;
 
-    font-family:Consolas,monospace;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 13px;
+    line-height: 1.65;
+    white-space: pre;
+}
+
+/* Scrollbar */
+
+.terminal-viewer pre::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.terminal-viewer pre::-webkit-scrollbar-track {
+    background: #0d0b12;
+}
+
+.terminal-viewer pre::-webkit-scrollbar-thumb {
+    background: rgba(212, 175, 55, 0.4);
+    border: 2px solid #0d0b12;
+    border-radius: 10px;
+}
+
+.terminal-viewer pre::-webkit-scrollbar-thumb:hover {
+    background: rgba(212, 175, 55, 0.65);
 }
