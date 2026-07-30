@@ -19,6 +19,7 @@ This project focuses on the forensic acquisition and analysis of mobile devices,
 ## Project Files
 
 <ul>
+
 <li>
 <a href="./DFOR%20assignment.pdf" target="_blank">
 📄 DFOR Assignment
@@ -26,8 +27,8 @@ This project focuses on the forensic acquisition and analysis of mobile devices,
 </li>
 
 <li>
-<a href="./Evidence%20for%20gravity%20smart%20Safe.pdf" target="_blank">
-📄 Evidence for Gravity Smart Safe
+<a href="./Evidence%20for%20gravity%20smart%20Samsung%20phone.pdf" target="_blank">
+📄 Evidence for Gravity Smart Samsung Phone
 </a>
 </li>
 
@@ -49,11 +50,6 @@ This project focuses on the forensic acquisition and analysis of mobile devices,
 </a>
 </li>
 
-<li>
-<a href="./Samsung%20phone%20analysis.pdf" target="_blank">
-📄 Samsung Phone Analysis
-</a>
-</li>
 </ul>
 
 ## What I Learned
