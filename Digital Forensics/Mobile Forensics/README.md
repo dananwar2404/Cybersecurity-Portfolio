@@ -18,14 +18,43 @@ This project focuses on the forensic acquisition and analysis of mobile devices,
 
 ## Project Files
 
-- 📄 [DFOR Assignment](./DFOR%20assignment.pdf)
-- 📄 [Evidence for Gravity Smart Safe](./Evidence%20for%20gravity%20smart%20Safe.pdf)
-- 📄 [Mobile Device Forensics](./Mobile%20Device%20Forensics.pdf)
-- 📄 [Module 10 Assignment](./Module%2010%20assignment.pdf)
-- 📄 [SQL LAB (1)](./SQL%20LAB%20%281%29.pdf)
-- 📄 [Samsung Phone Analysis](./Samsung%20phone%20analysis.pdf)
+<ul>
+<li>
+<a href="./DFOR%20assignment.pdf" target="_blank">
+📄 DFOR Assignment
+</a>
+</li>
 
----
+<li>
+<a href="./Evidence%20for%20gravity%20smart%20Safe.pdf" target="_blank">
+📄 Evidence for Gravity Smart Safe
+</a>
+</li>
+
+<li>
+<a href="./Mobile%20Device%20Forensics.pdf" target="_blank">
+📄 Mobile Device Forensics
+</a>
+</li>
+
+<li>
+<a href="./Module%2010%20assignment.pdf" target="_blank">
+📄 Module 10 Assignment
+</a>
+</li>
+
+<li>
+<a href="./SQL%20LAB%20%281%29.pdf" target="_blank">
+📄 SQL LAB (1)
+</a>
+</li>
+
+<li>
+<a href="./Samsung%20phone%20analysis.pdf" target="_blank">
+📄 Samsung Phone Analysis
+</a>
+</li>
+</ul>
 
 ## What I Learned
 
