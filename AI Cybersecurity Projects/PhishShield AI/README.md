@@ -1,4 +1,4 @@
-# 🛡️ PhishShield AI
+#PhishShield AI
 
 > **An AI-powered phishing detection platform that leverages Google's Gemini API and machine learning to identify malicious emails, suspicious URLs, and potentially dangerous file attachments.**
 
