@@ -1,4 +1,4 @@
-# 🌐 Network Anomaly Detection using Machine Learning
+#Network Anomaly Detection using Machine Learning
 
 ## Overview
 
