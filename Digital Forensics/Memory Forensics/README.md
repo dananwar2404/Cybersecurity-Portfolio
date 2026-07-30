@@ -17,10 +17,13 @@ This project explores live memory acquisition and forensic analysis techniques u
 ---
 
 ## Project Files
-
-- 📄 [Conducting Forensic Investigations of RAM](./Conducting%20Forensic%20Investigations%20of%20RAM.pdf)
-
----
+<ul>
+<li>
+<a href="./Conducting%20Forensic%20Investigations%20of%20RAM.pdf" target="_blank">
+📄 Conducting Forensic Investigations of RAM
+</a>
+</li>
+</ul>
 
 ## What I Learned
 
