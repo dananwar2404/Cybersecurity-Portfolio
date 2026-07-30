@@ -1,4 +1,4 @@
-
+# Social Enginnering
 ## Overview
 
 This project examines the human element of cybersecurity by demonstrating how attackers use social engineering techniques to manipulate individuals into revealing sensitive information or performing actions that compromise security. The project focuses on phishing simulations and the Social-Engineer Toolkit (SET) within a controlled ethical hacking environment.
