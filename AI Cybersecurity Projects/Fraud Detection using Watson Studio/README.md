@@ -34,9 +34,9 @@ The objective of this project was to explore how artificial intelligence can imp
 ---
 
 ## Project Files
-
-- 📓 [Open Jupyter Notebook](Fraud Detection using watson studio.ipynb)
-- 📄 Fraud Detection using Watson Studio Reflection.pdf
+- 📓 [Machine Learning Notebook](./Fraud%20Detection%20using%20watson%20studio.ipynb)
+- 🐍 [Python Source Code](./Fraud_Detection_Watson.py)
+- 📄 [Reflection Paper](./Fraud%20Detection%20using%20Watson%20Studio%20Reflection.pdf)
   
 ## Python Source Code
 
