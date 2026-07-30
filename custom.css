@@ -767,34 +767,25 @@ body.boot-active {
    PYTHON CODE VIEWER
    ========================================= */
 
-.terminal-viewer {
-    position: relative;
-    max-width: 1000px;
-    margin: 28px auto 40px;
-    overflow: hidden;
-
-    background: #09090d;
-    border: 1px solid rgba(212, 175, 55, 0.4);
-    border-radius: 10px;
-
-    box-shadow:
-        0 18px 45px rgba(0, 0, 0, 0.45),
-        0 0 24px rgba(111, 66, 193, 0.16);
-}
-
 .terminal-header {
     display: flex;
     align-items: center;
-    min-height: 42px;
-    padding: 0 15px;
+    min-height: 44px;
+    margin: 28px 0 0;
+    padding: 0 16px;
 
     background: linear-gradient(
         90deg,
         #17121f,
-        #1d1727
+        #21172d
     );
 
-    border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+
+    box-shadow:
+        0 0 24px rgba(111, 66, 193, 0.16);
 }
 
 .terminal-dot {
@@ -811,30 +802,33 @@ body.boot-active {
 .terminal-title {
     margin-left: 9px;
 
-    color: #c5c1cb;
+    color: #c9c4d0;
     font-family: Consolas, "Courier New", monospace;
     font-size: 13px;
     letter-spacing: 0.2px;
 }
 
-.terminal-viewer pre {
+/* Code block directly below the terminal header */
+
+.terminal-header + pre {
+    position: relative;
     max-height: 650px;
-    margin: 0 !important;
+    margin: 0 0 40px !important;
     padding: 24px !important;
     overflow: auto;
 
     background: #09090d !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
+
+    border: 1px solid rgba(212, 175, 55, 0.4) !important;
+    border-top: 1px solid rgba(212, 175, 55, 0.2) !important;
+    border-radius: 0 0 10px 10px !important;
+
+    box-shadow:
+        0 18px 45px rgba(0, 0, 0, 0.45),
+        0 0 24px rgba(111, 66, 193, 0.16) !important;
 }
 
-.terminal-viewer pre::after,
-.terminal-viewer pre::before {
-    display: none !important;
-}
-
-.terminal-viewer code {
+.terminal-header + pre code {
     display: block;
     min-width: max-content;
 
@@ -848,21 +842,21 @@ body.boot-active {
 
 /* Scrollbar */
 
-.terminal-viewer pre::-webkit-scrollbar {
+.terminal-header + pre::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
 
-.terminal-viewer pre::-webkit-scrollbar-track {
+.terminal-header + pre::-webkit-scrollbar-track {
     background: #0d0b12;
 }
 
-.terminal-viewer pre::-webkit-scrollbar-thumb {
+.terminal-header + pre::-webkit-scrollbar-thumb {
     background: rgba(212, 175, 55, 0.4);
     border: 2px solid #0d0b12;
     border-radius: 10px;
 }
 
-.terminal-viewer pre::-webkit-scrollbar-thumb:hover {
+.terminal-header + pre::-webkit-scrollbar-thumb:hover {
     background: rgba(212, 175, 55, 0.65);
 }
