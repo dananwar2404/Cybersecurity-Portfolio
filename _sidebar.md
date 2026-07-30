@@ -23,5 +23,5 @@
 
 
 * ⚔️ Red Team
-  * [Offensive Operations](/Red%20Team/Offensive%20operations/)
-  * [Social Engineering](/Red%20Team/Social%20Engineering/)
+  * [Offensive Operations](/Red%20Teaming/Offensive%20operations/)
+  * [Social Engineering](/Red%20Teaming/Social%20Engineering/)
