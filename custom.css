@@ -860,3 +860,46 @@ body.boot-active {
 .terminal-header + pre::-webkit-scrollbar-thumb:hover {
     background: rgba(212, 175, 55, 0.65);
 }
+/* ============================
+   Modern Sidebar Icons
+============================ */
+
+.sidebar-icon {
+  width: 18px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  color: #9f7aea;
+  transition: all 0.25s ease;
+}
+
+.sidebar-nav a:hover .sidebar-icon {
+  color: #ffd166;
+  transform: translateX(3px);
+}
+
+.sidebar-nav li.active > a .sidebar-icon {
+  color: #ffd166;
+}
+
+.sidebar-section {
+  color: #f4c95d;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.featured-section .sidebar-icon {
+  color: #ffd166;
+}
+
+.ai-section .sidebar-icon {
+  color: #c084fc;
+}
+
+.blue-section .sidebar-icon {
+  color: #60a5fa;
+}
+
+.red-section .sidebar-icon {
+  color: #f87171;
+}
