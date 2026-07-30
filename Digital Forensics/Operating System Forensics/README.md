@@ -21,15 +21,25 @@ This project explores forensic investigation techniques for both Windows and Lin
 
 ## Project Files
 
-### 🐧 Linux Forensics
+### Linux Forensics
 
-- 📄 [Conducting Forensic Investigation on Linux](./Linux%20Forensics/Conductin%20Forensic%20Investigation%20on%20linux.pdf)
+<ul>
+<li>
+<a href="./Linux%20Forensics/Conductin%20Forensic%20Investigation%20on%20linux.pdf" target="_blank">
+📄 Conducting Forensic Investigation on Linux
+</a>
+</li>
+</ul>
 
-### 🪟 Windows Forensics
+### Windows Forensics
 
-- 📄 [Conducting Forensic Investigations on Windows Systems](./Windows%20Forensics/Conducting%20Forensic%20Investigations%20on%20Windows%20Systems%20%284e%29%20-%20Mohammed%20Anwar.pdf)
-
----
+<ul>
+<li>
+<a href="./Windows%20Forensics/Conducting%20Forensic%20Investigations%20on%20Windows%20Systems%20%284e%29%20-%20Mohammed%20Anwar.pdf" target="_blank">
+📄 Conducting Forensic Investigations on Windows Systems
+</a>
+</li>
+</ul>
 
 ## What I Learned
 
