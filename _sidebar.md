@@ -37,7 +37,6 @@
   <i class="fa-solid fa-bolt sidebar-icon"></i>
   Red Team
   </span>
-
   * [<i class="fa-solid fa-terminal sidebar-icon"></i> Offensive Operations](/Red%20Teaming/Offensive%20operations/)
   * [<i class="fa-solid fa-user-secret sidebar-icon"></i> Social Engineering](/Red%20Teaming/Social%20Engineering/)
 
