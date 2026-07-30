@@ -27,7 +27,6 @@ target="_blank">
 </a>
 </li>
 </ul>
----
 
 ## What I Learned
 
