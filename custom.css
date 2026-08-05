@@ -16,11 +16,16 @@
 }
 
 /* Main page */
+html, body {
+    min-height: 100vh;
+}
+
 body {
     background:
-        radial-gradient(circle at top right, rgba(111, 66, 193, 0.16), transparent 32%),
-        radial-gradient(circle at bottom left, rgba(212, 175, 55, 0.08), transparent 28%),
-        var(--background);
+        radial-gradient(circle at 85% 15%, rgba(111, 66, 193, 0.12), transparent 65%),
+        radial-gradient(circle at 15% 85%, rgba(212, 175, 55, 0.05), transparent 55%),
+        var(--background) !important;
+    background-attachment: fixed;
     color: var(--text);
 }
 
