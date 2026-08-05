@@ -1,4 +1,4 @@
-#Spam Detection Using Machine Learning
+## Spam Detection Using Machine Learning
 
 > A machine-learning project that classifies messages as spam or legitimate using text-processing and classification techniques.
 
