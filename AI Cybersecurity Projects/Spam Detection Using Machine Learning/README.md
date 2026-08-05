@@ -256,7 +256,7 @@ print(
 
 ## Model Evaluation
 
-![Confusion Matrix](./Confusion%20matrix.png)
+![Confusion Matrix](./Confusion%20matrix%20.png)
 
 The confusion matrix shows how accurately the model classified spam and legitimate messages. It also helps identify false positives and false negatives.
 
