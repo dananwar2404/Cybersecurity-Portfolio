@@ -21,14 +21,6 @@ This project explores how machine-learning algorithms can be used to detect spam
 
 ---
 
-## Project Files
-
-| File | Description |
-|------|-------------|
-| 📓 [Machine Learning Notebook](./Lab2_Spam_Detection.ipynb) | Complete Jupyter notebook containing the data preprocessing, feature engineering, model training, and evaluation workflow. |
-| 📊 [Confusion Matrix](./confusion-matrix.png) | Visualization of the model's classification performance. |
-| 📄 [Reflection Paper](./Reflection.docx) | Written analysis discussing the project methodology, results, and lessons learned. |
-
  **Python Source Code**
 <div class="terminal-viewer">
 
