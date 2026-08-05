@@ -968,3 +968,43 @@ html, body {
         width: 100%;
     }
 }
+/* ==========================================================================
+   Mobile-Specific Overrides & Layout Containment
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    /* Hide custom webkit scrollbars on mobile to remove the right-edge gradient bar */
+    ::-webkit-scrollbar {
+        display: none !important;
+        width: 0 !important;
+    }
+
+    /* Lock root elements to screen width */
+    html, body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+    }
+
+    /* Compact header buttons for narrow viewports */
+    .top-nav-actions {
+        top: 10px !important;
+        right: 10px !important;
+        gap: 4px !important;
+    }
+
+    .top-nav-actions a,
+    .top-nav-btn {
+        font-size: 0.7rem !important;
+        padding: 4px 8px !important;
+    }
+
+    /* Make markdown tables scroll horizontally inside their container */
+    .markdown-section table {
+        display: block !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        max-width: 100% !important;
+        -webkit-overflow-scrolling: touch;
+    }
+}
