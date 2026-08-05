@@ -914,3 +914,20 @@ body.boot-active {
         padding: 40px 15px 20px 15px !important;
     }
 }
+/* =========================================
+   CONTINUOUS SMOOTH BACKGROUND GRADIENT
+   ========================================= */
+
+/* 1. Apply a fixed full-screen gradient to the root background */
+body {
+    background: linear-gradient(180deg, #0b0713 0%, #170d28 50%, #0b0713 100%) !important;
+    background-attachment: fixed !important;
+}
+
+/* 2. Remove solid backgrounds from content containers to reveal the gradient */
+main,
+.content,
+.markdown-section,
+article {
+    background: transparent !important;
+}
