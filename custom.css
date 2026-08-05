@@ -30,7 +30,8 @@ body {
 
 .sidebar {
     width: 380px;
-    padding: 24px 16px;
+    /* Top padding increased to 76px to keep hamburger icon from overlapping search bar */
+    padding: 76px 16px 24px 16px;
     background: linear-gradient(
         180deg,
         rgba(23, 18, 32, 0.95) 0%,
@@ -39,10 +40,29 @@ body {
     border-right: 1px solid rgba(212, 175, 55, 0.15);
     box-shadow: 10px 0 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(12px);
+
+    /* Animation originating from hamburger button center (top-left) */
+    transform-origin: 37px 37px;
+    transform: scale(1) translate(0, 0);
+    opacity: 1;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.35s ease;
+}
+
+/* Fully hides sidebar & contracts it back into the hamburger icon */
+body.close .sidebar {
+    transform: scale(0) translate(-100%, -100%);
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: none;
 }
 
 .content {
     left: 380px;
+    transition: left 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body.close .content {
+    left: 0 !important;
 }
 
 /* Brand Header / Title */
@@ -726,12 +746,17 @@ body.boot-active {
         height: 100vh;
         width: 300px !important;
         z-index: 9999;
-        transform: translateX(-100%);
-        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        transform-origin: 37px 37px;
+        transform: scale(0) translate(-100%, -100%);
+        opacity: 0;
+        pointer-events: none;
+        transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
     }
 
     body.open .sidebar {
-        transform: translateX(0);
+        transform: scale(1) translate(0, 0);
+        opacity: 1;
+        pointer-events: auto;
     }
 
     .markdown-section table {
