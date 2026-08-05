@@ -785,3 +785,59 @@ body.boot-active {
         height: auto;
     }
 }
+/* =========================================
+   TOP-RIGHT ACTION BUTTONS
+   ========================================= */
+
+.top-nav-actions {
+    position: fixed;
+    top: 16px;
+    right: 24px;
+    z-index: 9998; /* Below mobile drawer, above content */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--soft-gold) !important;
+    background: rgba(23, 18, 32, 0.85);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 8px;
+    text-decoration: none !important;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.25s ease;
+}
+
+.top-nav-btn:hover {
+    color: #ffffff !important;
+    border-color: var(--bright-purple);
+    background: rgba(33, 24, 46, 0.95);
+    box-shadow: 0 0 14px rgba(168, 85, 247, 0.35);
+    transform: translateY(-2px);
+}
+
+.top-nav-btn span {
+    font-size: 0.85rem;
+}
+
+/* Adjust layout on small mobile screens */
+@media screen and (max-width: 480px) {
+    .top-nav-actions {
+        top: 16px;
+        right: 12px;
+        gap: 6px;
+    }
+    .top-nav-btn {
+        padding: 6px 10px;
+        font-size: 0.75rem;
+    }
+}
