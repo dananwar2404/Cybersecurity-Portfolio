@@ -45,12 +45,6 @@ The project focuses on applying machine learning techniques to support network i
 ![Feature Importance](bargraph.png)
 
 ---
-## Files
-
-- 📓 [Open Jupyter Notebook](Lab3_Network_Anomaly_Detection.ipynb)
-- 🐍 [Python Source Code](Lab3_Network_Anomaly_Detection.py)
-- 📄 [Reflection Paper](Lab3_Network_Anomaly_Detection_reflection.docx)
----
 
 ## Python Source Code
 
