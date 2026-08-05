@@ -21,8 +21,7 @@ This project focuses on securing enterprise networks using pfSense firewall tech
 
 ## Project Files
 
-- 📄 [Securing pfSense Firewall](./Securing%20pfsense%20firewall.pdf)
-
+- 📄 [Securing pfSense Firewall](Blue%20Team/Network%20Defense/Securing%20pfsense%20firewall.pdf ':ignore target=_blank')
 ---
 
 ## Key Topics
