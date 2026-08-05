@@ -32,11 +32,6 @@ The objective of this project was to explore how artificial intelligence can imp
 - Predictive Analytics
 
 ---
-
-## Project Files
-- 📓 [Machine Learning Notebook](./Fraud%20Detection%20using%20watson%20studio.ipynb)
-- 🐍 [Python Source Code](./Fraud_Detection_Watson.py)
-- 📄 [Reflection Paper](./Fraud%20Detection%20using%20Watson%20Studio%20Reflection.pdf)
   
 ## Python Source Code
 
