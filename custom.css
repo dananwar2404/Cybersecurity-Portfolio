@@ -841,3 +841,7 @@ body.boot-active {
         font-size: 0.75rem;
     }
 }
+/* Hide default Docsify GitHub corner ribbon */
+.github-corner {
+    display: none !important;
+}
