@@ -32,13 +32,6 @@ The goal of this project was to understand the strengths and weaknesses of diffe
 
 ---
 
-## Project Files
-
-- 📓 [Open Jupyter Notebook](lab6_algorithm_showdown..ipynb)
-- 🐍 [Python Source Code](lab6_algorithm_showdown.py)
-- 📄 [Reflection Paper](reflection-irisandwine.docx)
----
-
 ## Python Source Code
 
 <div class="terminal-header">
