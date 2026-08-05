@@ -931,3 +931,40 @@ main,
 article {
     background: transparent !important;
 }
+/* ==========================================================================
+   Mobile Optimization & Overflow Fixes (< 768px)
+   ========================================================================== */
+
+/* Prevent horizontal page scrolling and edge bleeding */
+html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+@media (max-width: 768px) {
+    /* Contain all major layout wrappers */
+    main, .content, .sidebar {
+        max-width: 100vw;
+        box-sizing: border-box;
+    }
+
+    /* Scale and wrap top navigation buttons cleanly */
+    .top-nav-actions {
+        gap: 6px;
+        margin-top: 4px;
+    }
+
+    .top-nav-actions a {
+        padding: 4px 8px;
+        font-size: 0.75rem;
+    }
+
+    /* Make markdown tables horizontally scrollable inside their container */
+    .markdown-section table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+    }
+}
