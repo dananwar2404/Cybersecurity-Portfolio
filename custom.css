@@ -975,8 +975,8 @@ body.boot-active {
 
     /* 5. Terminal and table horizontal scrolling */
     .boot-logo, pre[class*="boot-logo"] {
-        font-size: 7px !important;
-        line-height: 1.1 !important;
+        font-size: 6px !important;
+        line-height: 1.05 !important;
         overflow-x: auto;
     }
 
