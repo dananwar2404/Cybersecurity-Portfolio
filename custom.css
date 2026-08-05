@@ -85,6 +85,7 @@ body.close .content {
 }
 
 /* Modern Minimalist Search Input */
+.search {
 position: relative !important;
     top: auto !important;
     margin-top: 54px !important; /* Pushes the input below the floating toggle */
