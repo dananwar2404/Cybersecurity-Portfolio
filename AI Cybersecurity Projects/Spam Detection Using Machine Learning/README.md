@@ -20,8 +20,8 @@ This project explores how machine-learning algorithms can be used to detect spam
 - Machine Learning
 
 ---
+##Python Source Code
 
- **Python Source Code**
 <div class="terminal-viewer">
 
 <div class="terminal-header">
