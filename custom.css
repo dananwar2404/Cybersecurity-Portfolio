@@ -64,6 +64,7 @@ body.close .sidebar {
 .content {
     left: 380px;
     transition: left 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    background: transparent !important;
 }
 
 body.close .content {
