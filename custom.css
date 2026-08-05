@@ -868,3 +868,49 @@ body.boot-active {
         transform: translateY(0);
     }
 }
+/* =========================================
+   MOBILE RESPONSIVE OVERRIDES
+   ========================================= */
+
+@media screen and (max-width: 768px) {
+    /* 1. Scale and position top-right buttons for phone screens */
+    .top-nav-actions {
+        top: 10px;
+        right: 10px;
+        gap: 6px;
+    }
+
+    .top-nav-btn {
+        padding: 6px 10px;
+        font-size: 0.72rem;
+    }
+
+    .top-nav-btn span {
+        display: none; /* Hides icon emojis on small screens to save space */
+    }
+
+    /* 2. Prevent ASCII Art / Terminal from stretching the screen width */
+    .boot-logo, pre[class*="boot-logo"] {
+        font-size: 7px !important;
+        line-height: 1.1 !important;
+        overflow-x: auto;
+    }
+
+    .boot-terminal {
+        padding: 12px !important;
+        max-width: 95vw !important;
+    }
+
+    /* 3. Make Portfolio tables scroll horizontally instead of cutting off */
+    .markdown-section table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* 4. Main content padding adjustment */
+    .markdown-section {
+        padding: 40px 15px 20px 15px !important;
+    }
+}
