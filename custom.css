@@ -24,22 +24,151 @@ body {
     color: var(--text);
 }
 
-/* Sidebar */
+/* =========================================
+   ELEGANT & REFINED SIDEBAR SYSTEM
+   ========================================= */
+
+/* Sidebar Container */
 .sidebar {
-    width: 350px;
-    padding: 0 22px;
-    background:
-        linear-gradient(
-            180deg,
-            rgba(111, 66, 193, 0.16),
-            rgba(13, 11, 20, 0.96) 40%
-        );
-    border-right: 1px solid rgba(212, 175, 55, 0.35);
-    box-shadow: 8px 0 28px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    padding: 24px 16px;
+    background: linear-gradient(
+        180deg,
+        rgba(23, 18, 32, 0.95) 0%,
+        rgba(13, 11, 20, 0.98) 100%
+    );
+    border-right: 1px solid rgba(212, 175, 55, 0.15);
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
 }
 
 .content {
-    left: 350px;
+    left: 320px;
+}
+
+/* Brand Header / Title */
+.app-name {
+    margin: 12px 0 20px 8px;
+}
+
+.app-name-link {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--soft-gold) !important;
+    letter-spacing: 1px;
+    text-shadow: 0 0 16px rgba(212, 175, 55, 0.3);
+    transition: opacity 0.2s ease;
+}
+
+.app-name-link:hover {
+    opacity: 0.85;
+}
+
+/* Modern Minimalist Search Input */
+.search {
+    margin-bottom: 20px;
+    padding: 0 4px;
+    border-bottom: none;
+}
+
+.search input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--text);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 0.88rem;
+    transition: all 0.25s ease;
+}
+
+.search input:focus {
+    background: rgba(23, 18, 32, 0.95);
+    border-color: var(--bright-purple);
+    box-shadow: 0 0 12px rgba(168, 85, 247, 0.25);
+    outline: none;
+}
+
+/* Navigation List & Hierarchy */
+.sidebar-nav ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar-nav ul ul {
+    padding-left: 14px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    border-left: 1px solid rgba(168, 85, 247, 0.15);
+}
+
+.sidebar-nav li {
+    margin: 4px 0;
+    list-style: none;
+}
+
+/* Section Header Titles */
+.sidebar-nav > ul > li > a,
+.sidebar-nav > ul > li > strong,
+.sidebar-nav > ul > li > p {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: rgba(212, 175, 55, 0.85) !important;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    padding-left: 8px;
+    display: block;
+}
+
+/* Links & Interactive Elements */
+.sidebar-nav a {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    color: var(--muted);
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 6px;
+    border-left: 3px solid transparent;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hover States */
+.sidebar-nav a:hover {
+    color: #ffffff;
+    background: rgba(168, 85, 247, 0.12);
+    border-left-color: var(--bright-purple);
+    transform: translateX(4px);
+}
+
+/* Active Link State */
+.sidebar-nav li.active > a {
+    color: var(--soft-gold) !important;
+    font-weight: 600;
+    background: linear-gradient(
+        90deg,
+        rgba(111, 66, 193, 0.3) 0%,
+        rgba(212, 175, 55, 0.05) 100%
+    );
+    border-left-color: var(--gold);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Icons Adjustments */
+.sidebar-icon {
+    width: 18px;
+    margin-right: 10px;
+    font-size: 0.95rem;
+    text-align: center;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.sidebar-nav a:hover .sidebar-icon {
+    transform: scale(1.15);
+}
 }
 
 /* Portfolio name */
