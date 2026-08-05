@@ -30,7 +30,7 @@ body {
 
 /* Sidebar Container */
 .sidebar {
-    width: 320px;
+    width: 380px;
     padding: 24px 16px;
     background: linear-gradient(
         180deg,
@@ -43,7 +43,7 @@ body {
 }
 
 .content {
-    left: 320px;
+    left: 380px;
 }
 
 /* Brand Header / Title */
@@ -231,11 +231,14 @@ body {
 
 /* Sidebar links */
 .sidebar-nav a {
-    display: block;
+    display: flex;
+   align-items: flex-start;
     padding: 5px 8px;
     color: var(--muted);
     border-left: 2px solid transparent;
     border-radius: 4px;
+   line-height: 1.4; /* Adds breathing room for multi-line text */
+    white-space: normal; /* Forces the text to wrap */
     transition:
         color 0.2s ease,
         background 0.2s ease,
