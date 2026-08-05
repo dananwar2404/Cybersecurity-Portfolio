@@ -4,7 +4,7 @@
 
 ---
 
-Welcome to my cybersecurity portfolio.
+Welcome to my cybersecurity portfolio!
 
 This portfolio showcases hands-on cybersecurity projects spanning artificial intelligence, incident response, malware analysis, digital forensics, threat intelligence, defensive security, offensive security, and secure software development. Each project includes the investigation methodology, technical analysis, tools used, findings, and recommendations.
 
