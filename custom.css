@@ -793,10 +793,18 @@ body.boot-active {
     position: fixed;
     top: 16px;
     right: 24px;
-    z-index: 9998; /* Below mobile drawer, above content */
+    z-index: 9998;
     display: flex;
     align-items: center;
     gap: 10px;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+.top-nav-actions.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-10px);
 }
 
 .top-nav-btn {
