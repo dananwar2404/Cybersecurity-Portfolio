@@ -71,12 +71,7 @@ The project concludes with a professional AI security assessment documenting ide
 
 ---
 
-## Project Files
-- 📓 [Open Jupyter Notebook](Attacking_and_defending_against_LLMs.ipynb)
-- 🐍 [Python Source Code](Attacking_and_defending_against_LLMs.py)
-- 📄 [Reflection Paper](Attacking_and_defending_against_LLMs_Reflection.docx)
----
-
+## Python Source Code
 <div class="terminal-header">
 <span class="terminal-dot"></span>
 <span class="terminal-dot"></span>
