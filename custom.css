@@ -88,7 +88,7 @@ body.close .content {
 .search {
 position: relative !important;
     top: auto !important;
-    margin-top: 54px !important; /* Pushes the input below the floating toggle */
+    margin-top: 80px !important; /* Pushes the input below the floating toggle */
     margin-bottom: 20px;
     padding: 0 4px;
     border-bottom: none;
